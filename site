@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja de Joias</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        header {
+            background-color: #ef6e5a;
+            padding: 10px 0;
+            text-align: center;
+            font-size: 24px;
+            color: white;
+        }
+        nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: #333;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .banner {
+            background-image: url('https://example.com/banner.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 36px;
+            font-weight: bold;
+        }
+        .cta-button {
+            background-color: black;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+            font-size: 18px;
+        }
+        .cta-button:hover {
+            background-color: #ef6e5a;
+        }
+        .categories {
+            display: flex;
+            justify-content: space-around;
+            padding: 50px 0;
+        }
+        .category {
+            text-align: center;
+        }
+        .category img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+        }
+        .category h3 {
+            margin-top: 10px;
+            font-size: 18px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header>
+        Loja de Joias Exclusivas
+    </header>
+
+    <!-- Navegação -->
+    <nav>
+        <a href="#">Joias</a>
+        <a href="#">Casamento</a>
+        <a href="#">Acessórios</a>
+        <a href="#">Coleções</a>
+        <a href="#">Presentes</a>
+        <a href="#">Contato</a>
+    </nav>
+
+    <!-- Banner Principal -->
+    <div class="banner">
+        <div>
+            Exclusividade e Sofisticação <br>
+            <a href="#" class="cta-button">Conheça</a>
+        </div>
+    </div>
+
+    <!-- Categorias de Produtos -->
+    <section class="categories">
+        <div class="category">
+            <img src="https://example.com/colar.jpg" alt="Colares">
+            <h3>Colares</h3>
+        </div>
+        <div class="category">
+            <img src="https://example.com/brincos.jpg" alt="Brincos">
+            <h3>Brincos</h3>
+        </div>
+        <div class="category">
+            <img src="https://example.com/pulseira.jpg" alt="Pulseiras">
+            <h3>Pulseiras</h3>
+        </div>
+        <div class="category">
+            <img src="https://example.com/acessorios.jpg" alt="Acessórios">
+            <h3>Acessórios</h3>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2024 Loja de Joias. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
+
